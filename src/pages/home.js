@@ -2,7 +2,6 @@ import * as React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Typed from 'react-typed';
-import ProgressiveImage from 'react-progressive-image'
 
 /********** COMPONENTS ************/
 // import Contact from '../components/contact'

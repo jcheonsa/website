@@ -21,46 +21,23 @@ function App() {
 
   return (
     <Router>
-        <div className="body-frame">
-          <Landing />
-          <Header />
-          <Contact />
-          <Route
-            render={({ location }) => (
-              <AnimatePresence initial={true} exitBeforeEnter>
-                <Switch location={location} key={location.pathname}>
-                  <Route path='/abt' exact component={AboutMe} />
-                  <Route path='/' exact component={Home} />
-                  {/* <Route
-                    exact
-                    path='/'
-                    render={() => <Home />}
-                  /> */}
-                  {/* <Route
-                    exact
-                    path='/abt'
-                    render={() => <AboutMe/>}
-                  /> */}
-                  {/* <Route
-                    exact
-                    path='/exp'
-                    render={() => <Experience />}
-                  />
-                  <Route
-                    exact
-                    path='/prt'
-                    render={() => <Portfolio />}
-                  />
-                  <Route
-                    exact
-                    path='/cnt'
-                    render={() => <ContactMe />}
-                  /> */}
-                </Switch>
-              </AnimatePresence>
-            )}
-          />
-        </div>
+      <div className="body-frame">
+        <Landing />
+        <Header />
+        <Contact />
+        <Route
+          render={({ location }) => (
+            <AnimatePresence initial={true} exitBeforeEnter>
+              <Switch location={location} key={location.pathname}>
+                <Route path='/' exact component={Home} />
+                <Route path='/abt' exact component={AboutMe} />
+                <Route path='/prt' exact component={Portfolio} />
+                <Route path='/cnt' exact component={ContactMe} />
+              </Switch>
+            </AnimatePresence>
+          )}
+        />
+      </div>
     </Router>
   );
 }

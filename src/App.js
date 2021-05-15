@@ -29,7 +29,7 @@ function App() {
   // };
 
   return (
-    <Router>
+    <Router basename="/website">
       <div className="App">
         <div className="body-frame">
           <Landing />

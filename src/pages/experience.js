@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Sidebar from '../components/sidebar';
 import Prevbar from '../components/prevbar';
 
-const Experience = ({ imageDetails }) => {
+const Experience = () => {
 
     const nextPage = "Artwork"
     const prevPage = "Portfolio"

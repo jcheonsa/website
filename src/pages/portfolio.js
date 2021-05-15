@@ -80,7 +80,7 @@ const tabVariants = {
 
 const pageTransition = { duration: 1, ease: [0.43, 0.13, 0.23, 0.96] };
 
-const Portfolio = ({ imageDetails }) => {
+const Portfolio = () => {
     // const { scrollYProgress } = useViewportScroll();
     // const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
     const [canScroll, setCanScroll] = useState(true);
@@ -137,7 +137,7 @@ const Portfolio = ({ imageDetails }) => {
                         <h1>Projects</h1>
 
                         <h5>
-                            Below are some projects I've worked on throughout the planning, research, development, and maintenance stages. <br/>
+                            Below are some projects I've worked on throughout the planning, research, development, and maintenance stages. <br />
                             I employ a variety of programming tools and languages as well as qualitative and quantitative research methodlogies to deliver quality work.
                         </h5>
                     </motion.div>
@@ -472,19 +472,19 @@ const Portfolio = ({ imageDetails }) => {
                     </AnimatePresence>
 
                     {/* /************ LIGHTBOX PROJECTS ********* */}
-                    <Open isOpen={isOpen} setisOpen={setisOpen} id="KAIBA" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen2} setisOpen={setisOpen2} id="ROSÉ" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen3} setisOpen={setisOpen3} id="WEBSITE" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen4} setisOpen={setisOpen4} id="SPARTAN" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen5} setisOpen={setisOpen5} id="BBKE" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen6} setisOpen={setisOpen6} id="IEEE" imageDetails={imageDetails} />
+                    <Open isOpen={isOpen} setisOpen={setisOpen} id="KAIBA" />
+                    <Open isOpen={isOpen2} setisOpen={setisOpen2} id="ROSÉ" />
+                    <Open isOpen={isOpen3} setisOpen={setisOpen3} id="WEBSITE" />
+                    <Open isOpen={isOpen4} setisOpen={setisOpen4} id="SPARTAN" />
+                    <Open isOpen={isOpen5} setisOpen={setisOpen5} id="BBKE" />
+                    <Open isOpen={isOpen6} setisOpen={setisOpen6} id="IEEE" />
 
-                    <Open isOpen={isOpen7} setisOpen={setisOpen7} id="GDPR" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen8} setisOpen={setisOpen8} id="KPOP" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen9} setisOpen={setisOpen9} id="IPT" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen10} setisOpen={setisOpen10} id="REDDIT" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen11} setisOpen={setisOpen11} id="MEME" imageDetails={imageDetails} />
-                    <Open isOpen={isOpen12} setisOpen={setisOpen12} id="GLAM" imageDetails={imageDetails} />
+                    <Open isOpen={isOpen7} setisOpen={setisOpen7} id="GDPR" />
+                    <Open isOpen={isOpen8} setisOpen={setisOpen8} id="KPOP" />
+                    <Open isOpen={isOpen9} setisOpen={setisOpen9} id="IPT" />
+                    <Open isOpen={isOpen10} setisOpen={setisOpen10} id="REDDIT" />
+                    <Open isOpen={isOpen11} setisOpen={setisOpen11} id="MEME" />
+                    <Open isOpen={isOpen12} setisOpen={setisOpen12} id="GLAM" />
                 </motion.div>
 
                 <Link to="/cnt">

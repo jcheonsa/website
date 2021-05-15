@@ -18,15 +18,6 @@ import Contact from './components/contact';
 import "./App.scss";
 
 function App() {
-  const imageDetails = {
-    width: 524,
-    height: 650,
-  };
-
-  // const imageDetails = {
-  //   width: 500,
-  //   height: 500,
-  // };
 
   return (
     <Router basename="/website">
@@ -39,30 +30,32 @@ function App() {
             render={({ location }) => (
               <AnimatePresence initial={true} exitBeforeEnter>
                 <Switch location={location} key={location.pathname}>
-                  <Route
+                  <Route path='/abt' exact component={AboutMe} />
+                  <Route path='/' exact component={Home} />
+                  {/* <Route
                     exact
                     path='/'
-                    render={() => <Home imageDetails={imageDetails} />}
-                  />
-                  <Route
+                    render={() => <Home />}
+                  /> */}
+                  {/* <Route
                     exact
                     path='/abt'
-                    render={() => <AboutMe imageDetails={imageDetails} />}
-                  />
+                    render={() => <AboutMe/>}
+                  /> */}
                   <Route
                     exact
                     path='/exp'
-                    render={() => <Experience imageDetails={imageDetails} />}
+                    render={() => <Experience />}
                   />
                   <Route
                     exact
                     path='/prt'
-                    render={() => <Portfolio imageDetails={imageDetails} />}
+                    render={() => <Portfolio />}
                   />
                   <Route
                     exact
                     path='/cnt'
-                    render={() => <ContactMe imageDetails={imageDetails} />}
+                    render={() => <ContactMe />}
                   />
                 </Switch>
               </AnimatePresence>

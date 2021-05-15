@@ -89,7 +89,7 @@ const pfpVariants = {
     },
 }
 
-const AboutMe = ({ imageDetails, image }) => {
+const AboutMe = () => {
 
     const nextPage = "Portfolio"
     const prevPage = "Home"

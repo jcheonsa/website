@@ -29,7 +29,7 @@ function Input(props) {
     );
 }
 
-const ContactMe = ({ imageDetails, image }) => {
+const ContactMe = () => {
 
     const prevPage = "Portfolio"
 

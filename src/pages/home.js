@@ -50,7 +50,7 @@ const letter = {
   },
 };
 
-const Home = ({ imageDetails, image }) => {
+const Home = () => {
 
   const nextPage = "About Me"
   // const prevPage = "Contact Me"
@@ -108,10 +108,9 @@ const Home = ({ imageDetails, image }) => {
             <div className='image-container'>
               <div
                 className='thumbnail'
-                ref={image}
                 style={{
-                  width: imageDetails.width,
-                  height: imageDetails.height,
+                  width: "524px",
+                  height: "654px",
                 }}>
                 <div className='frame'>
                   <div className='media'>

@@ -43,14 +43,14 @@ const infoVariants = {
 }
 
 
-const Open = ({ isOpen, setisOpen, id, imageDetails }) => {
+const Open = ({ isOpen, setisOpen, id }) => {
 
   if (id === "KAIBA") {
-    var modal = <ProjKaiba imageDetails={imageDetails}></ProjKaiba>
+    var modal = <ProjKaiba></ProjKaiba>
   };
 
   if (id === "ROSÉ") {
-    var modal = <ProjRosé imageDetails={imageDetails}></ProjRosé>
+    var modal = <ProjRosé></ProjRosé>
   };
 
   if (id === "WEBSITE") {
@@ -62,7 +62,7 @@ const Open = ({ isOpen, setisOpen, id, imageDetails }) => {
   };
 
   if (id === "BBKE") {
-    var modal = <ProjBBKE imageDetails={imageDetails}></ProjBBKE>
+    var modal = <ProjBBKE></ProjBBKE>
   };
 
   if (id === "IEEE") {

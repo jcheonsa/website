@@ -1,6 +1,6 @@
 import React from "react";
 import { AnimatePresence } from "framer-motion";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 
 //Pages
 import Home from "./pages/home";
@@ -20,8 +20,7 @@ import "./App.scss";
 function App() {
 
   return (
-    <Router basename="/website">
-      <div className="App">
+    <Router>
         <div className="body-frame">
           <Landing />
           <Header />
@@ -42,7 +41,7 @@ function App() {
                     path='/abt'
                     render={() => <AboutMe/>}
                   /> */}
-                  <Route
+                  {/* <Route
                     exact
                     path='/exp'
                     render={() => <Experience />}
@@ -56,13 +55,12 @@ function App() {
                     exact
                     path='/cnt'
                     render={() => <ContactMe />}
-                  />
+                  /> */}
                 </Switch>
               </AnimatePresence>
             )}
           />
         </div>
-      </div>
     </Router>
   );
 }

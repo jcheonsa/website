@@ -57,17 +57,16 @@ const Home = () => {
   return (
     <main>
       <motion.div
-        exit={
-          {
-            opacity: 0
-          }
-        }
-        transition={pageTransition}
       >
         <div className='container'>
           <motion.div
             className='row'
-            exit='exit'
+            exit={
+              {
+                opacity: 0
+              }
+            }
+            transition={pageTransition}
           >
             <h1>
               <motion.div className="intro">
@@ -102,7 +101,12 @@ const Home = () => {
 
           <motion.div
             className='row2'
-            exit='exit'
+            exit={
+              {
+                opacity: 0
+              }
+            }
+            transition={pageTransition}
           >
             <div className='image-container'>
               <div

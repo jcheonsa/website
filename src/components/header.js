@@ -36,61 +36,73 @@ const Header = () => {
             </Link>
           </div>
           <div className='navbar'>
+
             <motion.div className='nav-item' whileHover='hover'>
-              <motion.div variants={pageVariants}>
-                <p>home</p>
-              </motion.div>
               <Link to={'/'}>
-                <img src={require("../images/home.svg")}
-                  alt="logo"
-                >
-                </img>
+                <div>
+                  <motion.div variants={pageVariants}>
+                    <p>home</p>
+                  </motion.div>
+                  <img src={require("../images/home.svg")}
+                    alt="logo"
+                  >
+                  </img>
+                </div>
               </Link>
             </motion.div>
+
             <motion.div className='nav-item' whileHover='hover'>
-              <motion.div variants={pageVariants}>
-                <p>about me</p>
-              </motion.div>
               <Link to={'/abt'}>
-                <img src={require("../images/aboutme.svg")}
-                  alt="logo"
-                >
-                </img>
+                <div>
+                  <motion.div variants={pageVariants}>
+                    <p>about</p>
+                  </motion.div>
+                  <img src={require("../images/aboutme.svg")}
+                    alt="logo"
+                  >
+                  </img>
+                </div>
               </Link>
             </motion.div>
 
             <motion.div className='nav-item' whileHover='hover'>
-              <motion.div variants={pageVariants}>
-                <p>portfolio</p>
-              </motion.div>
               <Link to='/prt'>
-                <img src={require("../images/portfolio.svg")}
-                  alt="logo"
-                >
-                </img>
+                <div>
+                  <motion.div variants={pageVariants}>
+                    <p>portfolio</p>
+                  </motion.div>
+                  <img src={require("../images/portfolio.svg")}
+                    alt="logo"
+                  >
+                  </img>
+                </div>
               </Link>
-
             </motion.div>
+
             <motion.div className='nav-item' whileHover='hover'>
               <motion.div variants={pageVariants}>
                 <p>artwork</p>
               </motion.div>
-                <img src={require("../images/art.svg")}
-                  alt="logo"
-                >
-                </img>
+              <img src={require("../images/art.svg")}
+                alt="logo"
+              >
+              </img>
             </motion.div>
+
             <motion.div className='nav-item' whileHover='hover'>
-              <motion.div variants={pageVariants}>
-                <p>contact me</p>
-              </motion.div>
               <Link to='cnt'>
-                <img src={require("../images/contactme.svg")}
-                  alt="logo"
-                >
-                </img>
+                <div>
+                  <motion.div variants={pageVariants}>
+                    <p>contact</p>
+                  </motion.div>
+                  <img src={require("../images/contactme.svg")}
+                    alt="logo"
+                  >
+                  </img>
+                </div>
               </Link>
             </motion.div>
+
           </div>
         </div>
       </div>

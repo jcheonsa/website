@@ -39,6 +39,21 @@ $brown: #6e2901;
   font-family: "Montserrat", sans-serif;
 }
 
+// Breakpoints
+$bp-small: 48em; // 768px
+$bp-medium: 64em; // 1024px
+$bp-large: 85.375em; // 1366px
+$bp-xlarge: 120em; // 1920px
+$bp-xxlarge: 160em; // 2560px
+
+// Media Queries
+$mq-small: "(min-width: #{$bp-small})";
+$mq-medium: "(min-width: #{$bp-medium})";
+$mq-large: "(min-width: #{$bp-large})";
+$mq-xlarge: "(min-width: #{$bp-xlarge})";
+$mq-xxlarge: "(min-width: #{$bp-xxlarge})";
+$mq-retina: "(-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)";
+
 /*************LANDING**********/
 body {
   padding: 0;
@@ -129,6 +144,10 @@ header {
   z-index: 99;
   width: 100%;
   font-weight: "700";
+  a {
+    color: $main;
+    text-decoration: none;
+  }
   .container {
     background-color: $brown;
     .row {
@@ -143,7 +162,6 @@ header {
           justify-content: center;
           background-color: $main;
           transition: 0.3s ease-in-out;
-          text-decoration: none;
           z-index: 1;
           &:hover {
             background: var(--primary-white);
@@ -236,11 +254,11 @@ main {
     position: relative;
     justify-content: center;
     margin: auto;
-    height: 100vh;
+    height: 89.5vh;
     .row {
       color: $black;
       background-color: $main;
-      height: 100vh;
+      // height: 100vh;
       width: 70vh;
       font-size: 2rem;
       // background-color: lightgrey;
@@ -376,14 +394,24 @@ main {
   z-index: 50;
   display: flex;
   justify-content: center;
+  flex-direction: column;
   position: absolute;
   align-items: center;
   width: 100%;
   pointer-events: none;
+  p {
+    color: $main;
+  }
   .text {
     border-radius: 100%;
     background-color: $main;
     z-index: -5;
+    img {
+      max-width: 200px;
+      max-height: 200px;
+      min-width: 200px;
+      min-height: 200px;
+    }
   }
 }
 
@@ -393,7 +421,7 @@ main {
   width: 140vh;
   // display: flex;
   flex-direction: column;
-  overflow: hidden;
+  // overflow: hidden;
   // position: absolute;
   background-color: $main;
   h1 {
@@ -443,7 +471,6 @@ main {
     background-color: lighten($main, 5%);
     width: 367px;
     height: 267px;
-    overflow: hidden;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -694,12 +721,13 @@ main {
   }
 }
 
-//**************************** EXPERIENCE PAGE **************************
+//**************************** ABOUT PAGE **************************
 .experience {
   z-index: -1 !important;
   margin-top: 2rem;
-  height: 100%;
+  // height: 100%;
   .container {
+    height: 80vh;
     .row1 {
       .columns {
         display: flex;

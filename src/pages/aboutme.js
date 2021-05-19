@@ -100,16 +100,17 @@ const AboutMe = () => {
                 className="container"
                 initial='initial'
                 animate='animate'
-                exit={
-                    {
-                        opacity: 0
-                    }
-                }
             >
                 <Link to="/">
                     <Prevbar prevPage={prevPage} />
                 </Link>
-                <div className="proj-wrapper">
+                <motion.div className="proj-wrapper"
+                    exit={
+                        {
+                            opacity: 0
+                        }
+                    }
+                >
 
                     <div className='experience'>
                         <div className='container'>
@@ -196,7 +197,7 @@ const AboutMe = () => {
                             </div>
                         </div>
                     </div>
-                </div>
+                </motion.div>
                 <Link to="/prt">
                     <Sidebar nextPage={nextPage} />
                 </Link>

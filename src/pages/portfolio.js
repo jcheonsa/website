@@ -85,9 +85,9 @@ const Portfolio = () => {
     // const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
     const [canScroll, setCanScroll] = useState(true);
 
-    useEffect(() => {
-        document.querySelector("body").classList.add("no-scroll");
-    }, [canScroll]);
+    // useEffect(() => {
+    //     document.querySelector("body").classList.add("no-scroll");
+    // }, [canScroll]);
 
     const [isSoftware, setSoftware] = useState(true);
     const [isResearch, setResearch] = useState(false);
@@ -118,22 +118,24 @@ const Portfolio = () => {
                 className="container"
                 initial='initial'
                 animate='animate'
-                exit={
-                    {
-                        opacity: 0
-                    }
-                }
-                transition={pageTransition}
             >
 
                 <Link to="/abt">
                     <Prevbar prevPage={prevPage} />
                 </Link>
 
-                <motion.div className="proj-wrapper">
+                <motion.div className="proj-wrapper"
+                    exit={
+                        {
+                            opacity: 0
+                        }
+                    }
+                    transition={pageTransition}
+                >
                     <motion.div variants={page}
                         initial="initial"
-                        animate="animate">
+                        animate="animate"
+                    >
                         <h1>Projects</h1>
 
                         <h5>

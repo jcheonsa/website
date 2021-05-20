@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.250d376c.chunk.css",
-    "main.js": "/website/static/js/main.9a6c3969.chunk.js",
-    "main.js.map": "/website/static/js/main.9a6c3969.chunk.js.map",
+    "main.css": "/website/static/css/main.e651aa56.chunk.css",
+    "main.js": "/website/static/js/main.335fd1d8.chunk.js",
+    "main.js.map": "/website/static/js/main.335fd1d8.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.52a8e150.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.52a8e150.js.map",
-    "static/js/2.ec5b9529.chunk.js": "/website/static/js/2.ec5b9529.chunk.js",
-    "static/js/2.ec5b9529.chunk.js.map": "/website/static/js/2.ec5b9529.chunk.js.map",
+    "static/js/2.7146551c.chunk.js": "/website/static/js/2.7146551c.chunk.js",
+    "static/js/2.7146551c.chunk.js.map": "/website/static/js/2.7146551c.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.65162e2a042ec34c0c87608509e188d3.js": "/website/precache-manifest.65162e2a042ec34c0c87608509e188d3.js",
+    "precache-manifest.aca202bbe1236df6fb7477f71aaf588e.js": "/website/precache-manifest.aca202bbe1236df6fb7477f71aaf588e.js",
     "service-worker.js": "/website/service-worker.js",
-    "static/css/main.250d376c.chunk.css.map": "/website/static/css/main.250d376c.chunk.css.map",
-    "static/js/2.ec5b9529.chunk.js.LICENSE.txt": "/website/static/js/2.ec5b9529.chunk.js.LICENSE.txt",
+    "static/css/main.e651aa56.chunk.css.map": "/website/static/css/main.e651aa56.chunk.css.map",
+    "static/js/2.7146551c.chunk.js.LICENSE.txt": "/website/static/js/2.7146551c.chunk.js.LICENSE.txt",
     "static/media/aboutme.svg": "/website/static/media/aboutme.8702dc53.svg",
     "static/media/art.svg": "/website/static/media/art.e7b9c2d4.svg",
     "static/media/autism.jpg": "/website/static/media/autism.3c682f41.jpg",
@@ -44,14 +44,20 @@
     "static/media/searchstep1.png": "/website/static/media/searchstep1.2f53e079.png",
     "static/media/searchstep2.png": "/website/static/media/searchstep2.28486453.png",
     "static/media/spotify-UI.png": "/website/static/media/spotify-UI.eaffbac4.png",
+    "static/media/sugar1.png": "/website/static/media/sugar1.981aa683.png",
+    "static/media/sugar2.png": "/website/static/media/sugar2.2ccc8d17.png",
+    "static/media/sugar3.png": "/website/static/media/sugar3.8f86a083.png",
+    "static/media/sugar4.png": "/website/static/media/sugar4.74042105.png",
+    "static/media/sugar5.png": "/website/static/media/sugar5.9d169bb4.png",
+    "static/media/sugar8.png": "/website/static/media/sugar8.886b0b20.png",
     "static/media/tab.svg": "/website/static/media/tab.fd4e8664.svg",
     "static/media/x.svg": "/website/static/media/x.e5e62321.svg",
     "static/media/zucker.webp": "/website/static/media/zucker.54cdb8c1.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.52a8e150.js",
-    "static/js/2.ec5b9529.chunk.js",
-    "static/css/main.250d376c.chunk.css",
-    "static/js/main.9a6c3969.chunk.js"
+    "static/js/2.7146551c.chunk.js",
+    "static/css/main.e651aa56.chunk.css",
+    "static/js/main.335fd1d8.chunk.js"
   ]
 }

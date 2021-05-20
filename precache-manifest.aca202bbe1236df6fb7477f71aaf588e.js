@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "79ac09f27cfc10803aec15ef84288ee0",
+    "revision": "4d3d68c41c1dcef8d63a01fd8f593705",
     "url": "/website/index.html"
   },
   {
-    "revision": "33ea73188f799513911b",
-    "url": "/website/static/css/main.250d376c.chunk.css"
+    "revision": "7d6cef84db571d43864a",
+    "url": "/website/static/css/main.e651aa56.chunk.css"
   },
   {
-    "revision": "5f1e2b0a151587782594",
-    "url": "/website/static/js/2.ec5b9529.chunk.js"
+    "revision": "9bb1b1963a6e52eed8d6",
+    "url": "/website/static/js/2.7146551c.chunk.js"
   },
   {
     "revision": "7697640d703ae35e4d2120f28e9ccbdd",
-    "url": "/website/static/js/2.ec5b9529.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.7146551c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "33ea73188f799513911b",
-    "url": "/website/static/js/main.9a6c3969.chunk.js"
+    "revision": "7d6cef84db571d43864a",
+    "url": "/website/static/js/main.335fd1d8.chunk.js"
   },
   {
     "revision": "3ca2c82da3288b4209bc",
@@ -150,6 +150,30 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "eaffbac4d8479c5e08ee50f2adc126d3",
     "url": "/website/static/media/spotify-UI.eaffbac4.png"
+  },
+  {
+    "revision": "981aa6832d709b00586f36341fdc8c44",
+    "url": "/website/static/media/sugar1.981aa683.png"
+  },
+  {
+    "revision": "2ccc8d17773920f4b93fa54809e90e02",
+    "url": "/website/static/media/sugar2.2ccc8d17.png"
+  },
+  {
+    "revision": "8f86a08319569ee7de437ac272e53e2a",
+    "url": "/website/static/media/sugar3.8f86a083.png"
+  },
+  {
+    "revision": "74042105276eb30f117f2fe3348f24ef",
+    "url": "/website/static/media/sugar4.74042105.png"
+  },
+  {
+    "revision": "9d169bb43d0c1a1cd7bae3635117bd7e",
+    "url": "/website/static/media/sugar5.9d169bb4.png"
+  },
+  {
+    "revision": "886b0b204ff61be2e4bb4b5a11f849f9",
+    "url": "/website/static/media/sugar8.886b0b20.png"
   },
   {
     "revision": "fd4e8664dba92f2caae95335d44709fa",

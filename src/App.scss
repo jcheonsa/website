@@ -615,9 +615,6 @@ main {
       z-index: 100;
       transition: all 0.3s ease-in-out;
       cursor: pointer;
-      &:hover {
-        transform: rotate(90deg);
-      }
     }
     .single {
       width: 130.5vh;
@@ -688,7 +685,7 @@ main {
       }
     }
     .detailed-information {
-      pointer-events: none;
+      // pointer-events: none;
       margin-top: 2rem;
       height: 100%;
       .container {

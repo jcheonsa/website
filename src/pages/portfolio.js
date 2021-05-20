@@ -220,7 +220,6 @@ const Portfolio = () => {
                                         initial="initial"
                                         animate="animate"
                                     >
-
                                         <div className="layer" onClick={() => setisOpen3(true)}>
                                             <p>Personal Website</p>
                                             <span>
@@ -268,15 +267,14 @@ const Portfolio = () => {
                                     >
                                         <Open isOpen={isOpen5} setisOpen={setisOpen5} />
                                         <div className="layer" onClick={() => setisOpen5(true)}>
-                                            <p><i>Big Bois Key Emporium</i></p>
+                                            <p><i>Sugarcheek Bakery Website</i></p>
                                             <span>
                                                 <t>HTML</t>
                                                 <t>CSS</t>
-                                                <t>PHP</t>
+                                                <t>JS</t>
                                             </span>
                                             <span>
-                                                <t>SQL</t>
-                                                <t>Bootstrap</t>
+                                                <t>Figma</t>
                                             </span>
                                         </div>
                                         <img src={require("../images/bbkp.png")} alt="" />

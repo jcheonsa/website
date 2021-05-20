@@ -53,6 +53,12 @@ const letter = {
     },
 };
 
+const imgVariants = {
+    hover: {
+        scale: 1,
+    }
+}
+
 const Project = () => {
     const { scrollYProgress } = useViewportScroll();
     const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
@@ -86,25 +92,12 @@ const Project = () => {
                             }}
                             className='details'>
                             <div className='tab'>
-                                <span> // Software Development // </span>
+                                <span> // Web Development/UI Design // </span>
                             </div>
                         </motion.div>
                         <motion.div className='project-name'>
                             <motion.span className='first' variants={firstName}>
-                                <motion.span variants={letter}>T</motion.span>
-                                <motion.span variants={letter}>h</motion.span>
-                                <motion.span variants={letter}>e</motion.span>
-                            </motion.span>
-                            <motion.span className='last' variants={lastName}>
-                                <motion.span variants={letter}>E</motion.span>
-                                <motion.span variants={letter}>m</motion.span>
-                                <motion.span variants={letter}>p</motion.span>
-                                <motion.span variants={letter}>o</motion.span>
-                                <motion.span variants={letter}>r</motion.span>
-                                <motion.span variants={letter}>i</motion.span>
-                                <motion.span variants={letter}>u</motion.span>
-                                <motion.span variants={letter}>m</motion.span>
-                                <motion.span variants={letter}>.</motion.span>
+                                <motion.span className='K' variants={letter}>Sugarcheek Bakery Website </motion.span>
                             </motion.span>
                         </motion.div>
                         <motion.div
@@ -116,7 +109,7 @@ const Project = () => {
                                 transition: { delay: 1.2, ...transition },
                             }}
                         >
-                            <i>web development</i>
+                            <i>UI/UX Design</i>
                         </motion.div>
                     </div>
                 </div>
@@ -136,14 +129,47 @@ const Project = () => {
                         <div className='columns'>
                             <div>
                                 <h3><i>Details.</i></h3>
-                                <t><i> HTML / PHP / CSS / PHP / SQL / Bootstrap / Altervista</i></t>
+                                <t><i> HTML / CSS / JS / Figma</i></t>
                                 <br />
                                 <t><i> An application of webpage development and managing a SQL database for customer transactions as well as inventory.</i></t>
                             </div>
                             <div>
                                 <h3><i>About.</i></h3>
-                                <t><i>A mock online store front specializing in music instruments. Features fully functional shopping cart, transaction, and feedback system.</i></t>
-
+                                <t><i>A mock online store front specializing in baked goods. Features fully functional shopping cart, transaction, and feedback system.</i></t>
+                            </div>
+                        </div>
+                        <h2 className='title'>
+                            The what & why.</h2>
+                        <p>
+                            A local business looking to establish an online presence. Allow site visitors to look at past products, make an order, leave feedback, etc.<br />
+                        </p>
+                        <p>
+                            Designed a prototype on Figma with screenshots of some of the frames below:
+                        </p>
+                        <div>
+                            <div className="container">
+                                <motion.div variants={imgVariants} whileHover="hover">
+                                    <img src={require("./assets/sugarIMG/sugar1.png")}></img>
+                                </motion.div>
+                                <motion.div variants={imgVariants} whileHover="hover">
+                                    <img src={require("./assets/sugarIMG/sugar2.png")}></img>
+                                </motion.div>
+                            </div>
+                            <div className="container">
+                                <motion.div variants={imgVariants} whileHover="hover">
+                                    <img src={require("./assets/sugarIMG/sugar5.png")}></img>
+                                </motion.div>
+                                <motion.div variants={imgVariants} whileHover="hover">
+                                    <img src={require("./assets/sugarIMG/sugar8.png")}></img>
+                                </motion.div>
+                            </div>
+                            <div className="container">
+                                <motion.div variants={imgVariants} whileHover="hover">
+                                    <img src={require("./assets/sugarIMG/sugar3.png")}></img>
+                                </motion.div>
+                                <motion.div variants={imgVariants} whileHover="hover">
+                                    <img src={require("./assets/sugarIMG/sugar4.png")}></img>
+                                </motion.div>
                             </div>
                         </div>
                     </div>

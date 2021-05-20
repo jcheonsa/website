@@ -274,10 +274,11 @@ const Portfolio = () => {
                                                 <t>JS</t>
                                             </span>
                                             <span>
+                                                <t>UX/UI Design</t>
                                                 <t>Figma</t>
                                             </span>
                                         </div>
-                                        <img src={require("../images/bbkp.png")} alt="" />
+                                        <img src={require("./projects/assets/sugarIMG/sugar1.png")} alt="" />
                                     </motion.div>
                                     <motion.div
                                         className="media"
@@ -295,6 +296,8 @@ const Portfolio = () => {
                                             </span>
                                             <span>
                                                 <t>Project Management</t>
+                                                <t>UX/UI Design</t>
+                                                <t>Figma</t>
                                             </span>
                                         </div>
                                         <img src={require("../images/ieee.png")} alt="" />

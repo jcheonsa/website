@@ -21,7 +21,7 @@ function App() {
   return (
     <Router>
       <div className="body-frame">
-        {/* <Landing /> */}
+        <Landing />
         <Header />
         <Contact />
         <Route
